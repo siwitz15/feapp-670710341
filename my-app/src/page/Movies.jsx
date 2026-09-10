@@ -11,7 +11,7 @@ function Movies() {
                 className="rounded-2xl border border-slate-100 bg-white p-6 shadow-md
                            transition hover:-translate-y-1 hover:shadow-xl">
             <h3 className="text-lg font-bold text-slate-800">{m.title}</h3>
-            <p className="mt-1 text-sm text-slate-500">ปี {m.year} · {m.genre}</p>
+            <p className="mt-1 text-sm text-slate-500">ปี {m.year} · {m.genre} ⭐{m.rating}</p>
           </Link>
         ))}
       </div>
